@@ -1,6 +1,6 @@
 
 variable "sg_name" {
-  type        = string
+  type = string # Mandatory variable that must be provided.
 }
 
 variable "sg_description" {
